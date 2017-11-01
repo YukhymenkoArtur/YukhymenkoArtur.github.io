@@ -1,7 +1,7 @@
 .header {
     background: #ffffff;
     width: 1903px;
-    height: 148px;
+    height: 180px;
 }
 
 
@@ -11,6 +11,39 @@
     background-image: url(img/2-layers.jpg);
 }
 
+ul.links {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 1000px;
+   }
+
+ul.links li {
+    color: black;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 50px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+
+
+ul.links2 {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 1000px;
+   }
+
+ul.links2 li {
+    color: black;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 50px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }   
 
 .biograf {
     background-image:url(img/text.jpg);
@@ -27,15 +60,24 @@
 }
 
 
-.forma {
-    max-width: 600px;
-    float: right;
-    padding: 0 200px 100px 0;
-}
-
 .priem {
+    size: 50px
     color: red;
 }
+
+
+.forma {
+    size: 50px;
+    max-width: 600px;
+    float: right;
+    padding: 200px 200px 100px 0;
+    clear:both;
+    text-align: center
+}
+
+
+
+
 
 .map {
     width: 1903px;
