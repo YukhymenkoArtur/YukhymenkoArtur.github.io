@@ -1,0 +1,58 @@
+.header {
+    background: #ffffff;
+    width: 1903px;
+    height: 148px;
+}
+
+
+.photo {
+    width: 1903px;
+    height: 616px;
+    background-image: url(img/2-layers.jpg);
+}
+
+
+.biograf {
+    background-image:url(img/text.jpg);
+    width: 1903px;
+    height: 370px;
+}
+
+
+
+.table {
+    width: 1903px;
+    height: 740px;
+    background-image: url(img/vector-smart-object.jpg);
+}
+
+
+.forma {
+    max-width: 600px;
+    float: right;
+    padding: 0 200px 100px 0;
+}
+
+.priem {
+    color: red;
+}
+
+.map {
+    width: 1903px;
+    height: 400px;
+     background-image: url(img/map.jpg);
+}
+
+.footer {
+    background: #58585a;
+    width: 1903px;
+    height: 141px;
+    
+}
+
+.end {
+    width: 1903px;
+    height: 50px;
+    background-color: #4a4a4b;
+}
+
